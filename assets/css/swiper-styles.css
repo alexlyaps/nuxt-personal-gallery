@@ -1,0 +1,24 @@
+.swiper-button-next {
+  color: var(--color-gray-800);
+  width: 20px;
+  aspect-ratio: 1;
+  margin-right: 12px;
+}
+
+.swiper-button-prev {
+  color: var(--color-gray-800);
+  width: 20px;
+  aspect-ratio: 1;
+  margin-left: 12px;
+}
+
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+  .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+  }
+}
