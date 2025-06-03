@@ -17,7 +17,7 @@
           alt="Carusel"
         />
         <div
-          class="hidden md:w-[1024px] text-gray-400 text-right text-xs italic"
+          class="hidden md:block md:w-[1024px] text-gray-400 text-right text-xs italic"
         >
           {{ img.author }}
         </div>
