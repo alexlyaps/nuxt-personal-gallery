@@ -10,4 +10,7 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
   css: ["~/assets/css/global.css"],
+  image: {
+    provider: "static",
+  },
 });

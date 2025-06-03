@@ -10,12 +10,7 @@
   >
     <swiper-slide v-for="img of caruselImages" lazy="true">
       <div class="flex flex-col justify-center items-center">
-        <NuxtImg
-          :src="`${img.path}.jpg`"
-          width="1024"
-          height="768"
-          alt="Carusel"
-        />
+        <img :src="`${img.path}.jpg`" width="1024" height="768" alt="Carusel" />
         <div
           class="hidden md:block md:w-[1024px] text-gray-400 text-right text-xs italic"
         >
