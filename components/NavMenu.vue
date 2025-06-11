@@ -4,7 +4,7 @@
 
     <div
       :class="[
-        'italic w-48 flex items-end flex-col overflow-hidden transition-all duration-1000 ease-in-out',
+        'italic w-68 flex items-end flex-col overflow-hidden transition-all duration-1000 ease-in-out',
         isOpened ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0',
       ]"
     >
